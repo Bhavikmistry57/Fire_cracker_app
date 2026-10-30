@@ -107,7 +107,7 @@ export default function App() {
       <header className="topbar">
         <button type="button" className="brand" onClick={() => setView("catalog")}>
           <span className="mark" aria-hidden="true" />
-          Firecracker Shop
+          999 Firecracker
         </button>
         {view !== "sent" && (
           <button type="button" className="cart-link" onClick={() => setView("cart")}>
